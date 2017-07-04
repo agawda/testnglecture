@@ -29,6 +29,6 @@ public class BasicTest {
     @Test
     public void booleanFailingTest () {
         Basic basic = new Basic();
-        assertFalse(basic.retFalse());
+        assertFalse(basic.retFalse(), "not false :<");
     }
 }
