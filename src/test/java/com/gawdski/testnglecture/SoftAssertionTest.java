@@ -12,7 +12,8 @@ public class SoftAssertionTest {
     public void testSoft () {
         softAssert.assertTrue(false, "failed");
         softAssert.assertTrue(true, "true");
-//        softAssert.assertAll();
+        softAssert.assertEquals(1, 2, "numbers");
+        softAssert.assertAll();
     }
 
     @Test
