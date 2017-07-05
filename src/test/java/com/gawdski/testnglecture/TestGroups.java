@@ -25,7 +25,7 @@ public class TestGroups {
 
     @Test(groups = "abc")
     public void abcTest () {
-        assertEquals(operation.calculate(1, 1), 2);
+        assertEquals(operation.calculate(1, 1), 3);
     }
 
     @Test(groups = "add")
